@@ -6,14 +6,13 @@ You need to use gcc to pass arguments.
 Here is the format:
 The 5 winning numbers need to be passed in the format [-n num1,num2,num3,num4,num5] without the brackets.
 The file needs to be passed in the format [-f filename] without the brackets.
+  
   Ex: 
     gcc lotterychecker.c -o lotterychecker
     ./lotterychecker -n 1,2,3,4,5 -f mynumbers.txt
-
     or
       gcc lotterychecker.c -o lotterychecker
       ./lotterychecker -f mynumbers.txt -n 1,2,3,4,5
-
     Note: If you are using MinGW on Windows, use '\' instead of '/'.
 
 Numbers in the txt file must be in the format [num1 num2 num3 num4 num5] without the brackets. Empty lines will be ignored.
