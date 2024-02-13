@@ -15,7 +15,7 @@ The file needs to be passed in the format [-f filename] without the brackets. <b
       ./lotterychecker -f mynumbers.txt -n 1,2,3,4,5
     Note: If you are using MinGW on Windows, use '\' instead of '/'. <br /> <br />
 
-Numbers in the txt file must be in the format [num1 num2 num3 num4 num5] without the brackets. Empty lines will be ignored. <br />
+Numbers in the txt file must be in the format [num1 num2 num3 num4 num5] without the brackets. Empty lines and extra spaces will be ignored. <br />
   Ex: <br />
     1 2 3 4 5 <br />
     6 7 8 9 10 <br /> <br />
